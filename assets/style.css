@@ -27,20 +27,20 @@
 
 .btn-header{
     padding: 10px 15px;
-}
-
-#btn-color-1{
     background-color: white;
-    border: none;
+    border: 1px solid gray;
     color: rgb(134, 133, 133);
     border-radius: 3px;
 }
+
+
 
 .btn-color-2{
     background-color: #007ee5;
     border: none;
     color: white;
     border-radius: 3px;
+    padding: 10px 15px;
 }
 
 .cont-2{
@@ -89,4 +89,429 @@
 
 .btn-radio{
     margin-right: 50px;
+}
+
+.option{
+    /*border: 1px solid yellow;*/
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.piano{
+    border: 1px solid gray;
+    width: 30%;
+    height: auto;
+    justify-content: space-between;
+    
+}
+
+.pacchetto{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 80%;
+    margin: auto ;
+}
+
+
+.s1 ,.s2 ,.s3, .s4{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    display: block;
+}
+
+.s1 *, .s4 *{
+    margin-bottom: 20px;
+}
+
+.s2, .s4{
+    margin-top: 30px;
+}
+.s2 *{
+    margin-bottom: 15px;
+}
+
+.s3{
+    margin-top: 35px;
+    align-items: center;
+}
+
+.s3 button{
+    width: 100%;
+}
+
+.s3 a{
+    color: blue;
+}
+
+.fa-check{
+    color: rgb(31, 31, 235);
+}
+
+.larga{
+    margin-top: 40px;
+     /*border: 1px solid red;*/
+    height: auto;
+    width: 100%;
+}
+
+.uinfo{
+    border: 1px solid gray;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.lbox{
+    width: 30%;
+    height: auto;
+}
+
+.rbox{
+    width: 70%;
+    height: auto;
+    align-self: center ;
+}
+
+.rbox > button{
+    float: left;
+}
+
+.s2 div, .s4 div{
+
+    margin: auto;
+}
+
+
+.testo{
+    width:80%;
+    height: auto;
+    /*border: 1px solid hotpink;*/
+}
+
+.testo > *{
+    padding: 16px;
+}
+
+.vendite{
+    width: 40%;
+    height: auto;
+}
+
+.vendite > button{
+    margin: 16px;
+    float: right;
+}
+
+.partner{
+    height: auto;
+    width: 80%;
+    padding-top: 150px;
+    display: flex;
+    margin: auto;
+}
+
+
+
+.partner-img{
+    width: 60%;
+    height: auto;
+    
+}
+.partner-img img{
+    max-width: 100%;
+}
+
+.partner-info{
+    width: 40%;
+    height: auto;
+    margin: 75px;
+    margin-left: 16px;
+}
+.partner-info > *{
+    padding: 16px;
+}
+
+.partner-info button{
+    margin-left: 16px;
+}
+
+.opzioni{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.flex{
+    display: flex;
+}
+
+.righe{
+    flex-direction: row;
+}
+
+.disposizione{
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.colonne{
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+
+.colonne img{
+    max-width: 100%;
+}
+
+.colonne *{
+    padding-top: 25px;
+}
+
+
+.clienti{
+    width: 80%;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.clienti{
+    padding: 16px;
+}
+
+.clienti a{
+    color: blue;
+}
+
+
+.brand{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /*border: 1px solid violet;*/
+    margin-top: 200px;
+}
+
+.box2{
+    /*border: 1px solid green; */
+    flex-basis: 33%;
+    height: auto;
+}
+
+.sponsor{
+    width: 100%;
+    /*border: 1px solid peru; */
+    height: auto;
+    margin-top: 250px;
+    display: flex;
+    
+}
+
+.col{
+    width: calc( 100vw / 3);
+    height: auto;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.sponsorbox{
+    width: 50%;
+    flex-wrap: wrap;
+    height: auto;
+    /*border: 1px solid rgb(206, 24, 206);*/
+    align-content: center;
+    position: relative;
+}
+
+.green{
+    border: 15px solid #d1e9cd;
+    background-color: #a2d39b;
+}
+
+.vino{
+    background-color: #61082b;
+}
+
+.azzurro{
+    background-color: #0093ce;
+}
+
+.rosso-acceso{
+    background-color: #ff1c1c;
+}
+
+.col-centrale{
+    width: calc( 100vw / 3 );
+    height: calc( 100vw / 3);
+    padding: 50px
+}
+
+.rosso{
+    background-color: #d5001f;
+}
+
+.celeste{
+    background-color: #b4d0e7;
+}
+
+.navy{
+    background-color: #0d2481;
+}
+
+.giallo{
+    background-color: #ffd830;
+}
+
+.sponsorbox img{
+    max-width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;   
+}
+
+.col-centrale img{
+    max-width: 70%;
+}
+
+.col-centrale hr{
+    width: 15%;
+    margin-top: 2.3vw;
+    margin-bottom: 2.3vw;
+}
+
+.col-centrale p{
+    margin-top: 0.3vw;
+}
+
+.dropboxBusiness{
+    width: 100%;
+    height: auto;
+    background-color: #b4d0e7;
+    display: flex;
+    align-items: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.larghezza{
+  width: 60%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  
+}
+
+.testo2{
+    width: 55%;
+    height: auto;
+    color: #61082b;
+    
+}
+
+
+.vendite2{
+    width: 40%;
+    height: auto;
+}
+
+.vendite2 > button{
+    float: right;
+}
+
+
+.domande{
+    width: 60%;
+    /*border: 1px solid purple; */
+    margin: auto;
+padding: 100px 0px;
+}
+
+.domande hr{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+
+
+.scomparsa{
+    display: flex;
+}
+
+.scomparsa > i{
+   margin-left: 40%;
+}
+
+.risposte > p{
+    display: none;
+    margin-top: 2em;
+}
+
+.risposte:hover > p{
+    display: block;
+}
+
+
+.foot{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.foot hr{
+    color: white;
+    width: 5%;
+    margin: 0 0 0 20%;
+    
+}
+
+.col-foot{
+    padding-top: 7em;
+    padding-bottom: 7em;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoria{
+    width: 19%;
+    padding-right: 1%;
+    height: auto;
+}
+
+.categoria p{
+    padding-top: 0.5em;
+}
+
+.categoria h2{
+    padding-bottom: 0.5em;
+}
+
+.fine{
+    width: 60%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.fine > *{
+    padding-left: 0.5em;
+    align-self: center;
 }
